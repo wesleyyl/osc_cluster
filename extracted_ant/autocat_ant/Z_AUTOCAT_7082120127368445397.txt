@@ -1,0 +1,32 @@
+Seed: 7082120127368445397
+*
+
+var S0
+var S1
+var S2
+S1 -> S0; k0*S1
+S1 + S2 -> S0; k1*S1*S2
+S1 -> S1+S1; k2*S1
+S2 -> S1+S1; k3*S2
+S1 + S0 -> S2; k4*S1*S0
+S0 -> S2; k5*S0
+S0 -> S2; k6*S0
+S0 -> S2; k7*S0
+S0 -> S2; k8*S0
+S0 -> S2; k9*S0
+k0 = 6.660162504245674
+k1 = 14.68050393877121
+k2 = 64.94220350019953
+k3 = 23.174343142625073
+k4 = 0.9748021003127574
+k5 = 4.652816251351325
+k6 = 4.487548666481163
+k7 = 10.082097852233726
+k8 = 10.520155817820443
+k9 = 16.026224711963994
+S0 = 1.0
+S1 = 5.0
+S2 = 9.0
+
+*
+{"maxGenerations": 800, "sizeOfPopulation": 40, "allowAutocatalysis": "False", "massConserved": "False", "toZip": "True", "numSpecies": 3, "numReactions": 8, "rateConstantScale": 50, "probabilityMutateRateConstant": 0.7, "initialConditions": [1, 5, 9, 3, 10, 3, 7, 1, 6, 3, 10, 11, 4, 6, 2, 7, 1, 9, 5, 7, 2, 4, 5, 10, 4, 1, 6, 7, 3, 2, 7, 8], "percentageCloned": 0.1, "percentageChangeInParameter": 0.15, "seed": -1, "threshold": 10.5, "frequencyOfOutput": 10}

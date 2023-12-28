@@ -1,0 +1,44 @@
+Seed: 628709163061143684
+*
+
+var S0
+var S1
+var S2
+S1 + S0 -> S1; k0*S1*S0
+S0 + S1 -> S1; k1*S0*S1
+S1 + S2 -> S0 + S0; k2*S1*S2
+S1 + S0 -> S2 + S2; k3*S1*S0
+S2 -> S1; k4*S2
+S2 -> S1; k5*S2
+S2 -> S2+S2; k6*S2
+S0 -> S0+S2; k7*S0
+S0 -> S0+S0; k8*S0
+S0 -> S2; k9*S0
+S0 -> S2+S2; k10*S0
+S1 -> S1+S1; k11*S1
+S2 -> S0; k12*S2
+S2 -> S0; k13*S2
+S2 + S2 -> S0 + S0; k14*S2*S2
+S0 -> S0+S0; k15*S0
+k0 = 41.16206111979774
+k1 = 17.446806257689403
+k2 = 1.8954547732175748
+k3 = 63.172259033253326
+k4 = 44.23699411472374
+k5 = 40.40571186438035
+k6 = 13.890761390123467
+k7 = 64.09800175257618
+k8 = 25.924813285253585
+k9 = 40.75857522682301
+k10 = 12.43031395703447
+k11 = 11.203918616813308
+k12 = 26.436688668632787
+k13 = 25.93357601307448
+k14 = 6.34977597652999
+k15 = 7.308118618939424
+S0 = 1.0
+S1 = 5.0
+S2 = 9.0
+
+*
+{"maxGenerations": 800, "sizeOfPopulation": 40, "allowAutocatalysis": "False", "massConserved": "False", "toZip": "True", "numSpecies": 3, "numReactions": 8, "rateConstantScale": 50, "probabilityMutateRateConstant": 0.7, "initialConditions": [1, 5, 9, 3, 10, 3, 7, 1, 6, 3, 10, 11, 4, 6, 2, 7, 1, 9, 5, 7, 2, 4, 5, 10, 4, 1, 6, 7, 3, 2, 7, 8], "percentageCloned": 0.1, "percentageChangeInParameter": 0.15, "seed": -1, "threshold": 10.5, "frequencyOfOutput": 10}
